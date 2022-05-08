@@ -1,0 +1,9 @@
+node_modules
+
+wwwroot
+
+.vs
+bin
+[Dd]ebug
+[Rr]elease
+[Pp]ublish

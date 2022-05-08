@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Authors>SmartERP NextGen Team</Authors>
+    <Company>ETSOO</Company>
+    <Copyright>Copyright © ETSOO 2022</Copyright>
+    <Description>ETSOO Under Construction Page/亿速思维网站正在建设页</Description>
+    <PackageProjectUrl>https://www.etsoo.com/</PackageProjectUrl>
+    <RepositoryType>GitHub</RepositoryType>
+    <RepositoryUrl>https://github.com/ETSOO/com.etsoo.UnderConstruction</RepositoryUrl>
+    <AssemblyVersion>1.0.1</AssemblyVersion>
+    <FileVersion>1.0.1</FileVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\js\" />
+    <Folder Include="wwwroot\lib\" />
+  </ItemGroup>
+
+</Project>

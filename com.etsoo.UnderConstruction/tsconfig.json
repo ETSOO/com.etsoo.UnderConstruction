@@ -3,7 +3,7 @@
     "noImplicitAny": false,
     "noEmitOnError": true,
     "removeComments": true,
-    "sourceMap": true,
+    "sourceMap": false,
     "module": "ESNext",
     "moduleResolution": "node",
     "target": "ES6",

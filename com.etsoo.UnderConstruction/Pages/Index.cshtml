@@ -1,10 +1,12 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = Resources.Pages.IndexModel.PageTitle;
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="text-center pt-3 text-muted">
+    <img src="~/client.png" class="client-logo" />
+    <h3 class="pt-3">@ViewData["ClientName"]</h3>
+    <p>@Resources.Pages.IndexModel.UnderConstructionMessage</p>
+    <p><img src="~/working.gif" /></p>
 </div>
